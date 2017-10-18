@@ -90,7 +90,8 @@ Topology.prototype._addExchange = function(exchangeOptions){
   var exP = this.rabbit.addExchange(
     exchangeOptions.name,
     exchangeOptions.type,
-    exchangeOptions
+    exchangeOptions,
+    exchangeOptions.connectionName
   );
 
   return exP;
