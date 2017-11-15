@@ -1,5 +1,5 @@
 {
-  "name": "rabbus",
+  "name": "rabbus_fix",
   "version": "0.8.2",
   "description": "A micro-servicebus for RabbitMQ",
   "main": "rabbus/lib/index.js",
@@ -26,12 +26,8 @@
     "request",
     "response"
   ],
-  "author": "Derick Bailey",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/derickbailey/rabbus/issues"
-  },
-  "homepage": "https://github.com/derickbailey/rabbus",
+  "homepage": "https://github.com/walkerx/rabbus",
   "devDependencies": {
     "grunt": "^1.0",
     "grunt-contrib-jshint": "^1.0",
