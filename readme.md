@@ -28,7 +28,7 @@ It's all NPM. You're going to want the 'rabbot' package with this, so you will
 need to do two things:
 
 ```
-npm install --save rabbot rabbus
+npm install --save rabbot_fix rabbus_fix
 ```
 
 Please note that rabbot is explicitly NOT mentioned as a dependency in the
